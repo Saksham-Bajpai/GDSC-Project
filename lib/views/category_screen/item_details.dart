@@ -193,7 +193,7 @@ class ItemDetails extends StatelessWidget {
                   20.heightBox,
 
                   //products you may also like
-                  productsyoumaylike.text.fontFamily(bold).size(16).color(darkFontGrey).make(),
+                  productsYouMayLike.text.fontFamily(bold).size(16).color(darkFontGrey).make(),
                   10.heightBox,
                   // copied widget from homeScreen featured products
                   SingleChildScrollView(

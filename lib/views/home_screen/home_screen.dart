@@ -102,17 +102,17 @@ class HomeScreen extends StatelessWidget {
                                         ? icBrands
                                         : icTopSeller,
                                 title: index == 0
-                                    ? topCategory
+                                    ? topCategories
                                     : index == 1
                                         ? brand
-                                        : topsellers,
+                                        : topSeller,
                               )),
                     ),
                     //featured categories
                     5.heightBox,
                     Align(
                         alignment: Alignment.centerLeft,
-                        child: featuredCategory.text
+                        child: featuredCategories.text
                             .color(darkFontGrey)
                             .size(15)
                             .fontFamily(semibold)
