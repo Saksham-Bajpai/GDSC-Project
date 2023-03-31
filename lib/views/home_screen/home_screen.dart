@@ -31,7 +31,7 @@ class HomeScreen extends StatelessWidget {
                 hintStyle: TextStyle(color: textfieldGrey),
               )),
             ),
-            10.heightBox,
+            12.heightBox,
             Expanded(
               child: SingleChildScrollView(
                 physics: BouncingScrollPhysics(),
