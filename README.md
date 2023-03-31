@@ -1,4 +1,4 @@
-# emart_app
+# GDSC FreeBooks App
 
 A new Flutter project.
 
